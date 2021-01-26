@@ -6,7 +6,7 @@ In this project, I train a robust model for CIFAR-10 that can defend the adversa
 
 
 ## Model
-My defense pipeline include image preprocessing, and adversarial training, etc. The detail can be found in the report *hw2_r09942066.pdf*
+My defense pipeline include image preprocessing, and adversarial training, etc. The detail can be found in the report *hw2_r09942066.pdf*, please let me know if you need the model weight(email me), then I will send you the download link. 
 
 ### Defense Model
 * resnet50
