@@ -1,13 +1,17 @@
 # Security and Privacy of Machine Learning HW2: Black Box Defense
 
 ## Overview
-In this homework, you need to train a robust model for CIFAR-10 that can defend the adversarial examples.
-That the attacker will use adversarial examples (up to epsilon=8 in the L_infinity norm) to attack your model.
+the attacker will use adversarial examples (up to epsilon=8 in the L_infinity norm) to attack your model, which is under white-box setting.
+In this project, I train a robust model for CIFAR-10 that can defend the adversarial examples.
+
+
 ## Model
+My defense pipeline include image preprocessing, and adversarial training, etc. The detail can be found in the report *hw2_r09942066.pdf*
+
 ### Defense Model
 * resnet50
 
-## Attack
+## Attack for evaluation 
 * PGD
 * FGSM
 
@@ -24,7 +28,7 @@ That the attacker will use adversarial examples (up to epsilon=8 in the L_infini
 * opencv
 **hw2.py has been tested under this env**
 ## Usage
-### For TA Evaluating
+### For Evaluating
 run `python hw2.py [image folder]`
 ##  Testing
 `cd src/example`<br>
@@ -37,8 +41,8 @@ run `python hw2.py [image folder]`
 `python test_PGD.py`
 
 ##  Result 
-67.2% accuracy for PGD attack(max epsilon=0.3)
+67.2% accuracy for PGD attack(max epsilon=0.3) under white-box setting
 
 # Contact 
 If there are any problem that make you cannot execute the program, please contact<br>
-**R09942066@ntu.edu.tw** before penalty, please QQ(I have already test under the specify env).
+**R09942066@ntu.edu.tw** (I have already test under the specify env).
