@@ -1,4 +1,4 @@
-# NTU 1091 Security and Privacy of Machine Learning Adversarial Defense
+# NTU-1091-Security and Privacy of Machine Learning: Adversarial Defense
 
 ## Overview
 the attacker will use adversarial examples (up to epsilon=8 in the L_infinity norm) to attack your model, which is under white-box setting.
